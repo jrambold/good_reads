@@ -1,5 +1,8 @@
 <%= @book.title %>
 <br>
+The Average is
+<%= @rating %>
+<br>
 <% @reviews.each do |review| %>
   <%= review.user_id %>
   <%= review.rating %>
